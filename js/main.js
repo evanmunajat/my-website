@@ -20,3 +20,14 @@ onload = () => {
     clearTimeout(c);
   }, 1000);
 };
+
+// Mengambil elemen-elemen yang diperlukan
+// Mengambil elemen tombol dan audio
+const toggleButton = document.getElementById("toggleButton");
+const audioPlayer = document.getElementById("audioPlayer");
+
+// Menangani klik tombol untuk memutar musik
+toggleButton.addEventListener("click", function() {
+    audioPlayer.play(); // Mulai memutar musik
+});
+

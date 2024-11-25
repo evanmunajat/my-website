@@ -1214,3 +1214,19 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Styling untuk tombol */
+.toggle-button {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: black;
+  padding: 20px 40px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
